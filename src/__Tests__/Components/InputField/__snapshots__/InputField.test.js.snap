@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField Component should render correctly 1`] = `
+Array [
+  <div
+    className="col-sm-3"
+  >
+    <label>
+      Test Label
+    </label>
+  </div>,
+  <div
+    className="col-sm-9"
+  >
+    <div
+      className="input-group"
+    >
+      <input
+        className="form-control"
+        value="test string in input"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`InputField Component should render correctly with button 1`] = `
+Array [
+  <div
+    className="col-sm-3"
+  >
+    <label>
+      Test Label
+    </label>
+  </div>,
+  <div
+    className="col-sm-9"
+  >
+    <div
+      className="input-group"
+    >
+      <input
+        className="form-control"
+        value="test string in input"
+      />
+      <div
+        className="input-group-append"
+      >
+        <button
+          className="btn btn-outline-secondary"
+          disabled={false}
+          type="button"
+        >
+          Convert
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;

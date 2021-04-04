@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Converter Container should render correctly 1`] = `
+<div
+  className="container container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12 col-md-5"
+    >
+      <h1
+        className="centerAlign"
+      >
+        Roman Numerals converter
+      </h1>
+      <form
+        className=""
+      >
+        <div
+          className="row inputsMargin"
+        >
+          <div
+            className="col-sm-3"
+          >
+            <label>
+              Roman Number
+            </label>
+          </div>
+          <div
+            className="col-sm-9"
+          >
+            <div
+              className="input-group"
+            >
+              <input
+                className="form-control"
+                onInput={[Function]}
+                value=""
+              />
+              <div
+                className="input-group-append"
+              >
+                <button
+                  className="btn btn-outline-secondary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Convert
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row inputsMargin"
+        >
+          <div
+            className="col-sm-3"
+          >
+            <label>
+              Decimal Number
+            </label>
+          </div>
+          <div
+            className="col-sm-9"
+          >
+            <div
+              className="input-group"
+            >
+              <input
+                className="form-control"
+                onInput={[Function]}
+                value=""
+              />
+              <div
+                className="input-group-append"
+              >
+                <button
+                  className="btn btn-outline-secondary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Convert
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row inputsMargin"
+        >
+          <div
+            className="col-sm-3"
+          >
+            <label>
+              Calculation
+            </label>
+          </div>
+          <div
+            className="col-sm-9"
+          >
+            <textarea
+              className="fullWidth"
+              readOnly={true}
+              rows={4}
+              value=""
+            />
+          </div>
+          <div
+            className="offset-sm-3 resetContainerStyle"
+          >
+            <button
+              className="btn btn-outline-secondary"
+              disabled={false}
+              onClick={[Function]}
+              type="button"
+            >
+              RESET
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-sm-12 col-md-7  d-flex align-items-center"
+    >
+      <img
+        alt="Roman Numerals"
+        className="imageStyle"
+        src="/roman-numerals.jpeg"
+      />
+    </div>
+  </div>
+</div>
+`;

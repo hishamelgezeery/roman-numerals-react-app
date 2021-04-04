@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render correctly 1`] = `
+<nav
+  className="navbar navbar-expand navbar-dark bg-light"
+>
+  <a
+    className="navbar-brand"
+    href="#"
+  >
+    test navbar
+  </a>
+</nav>
+`;
