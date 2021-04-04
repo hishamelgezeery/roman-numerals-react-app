@@ -1,0 +1,27 @@
+.container {
+    background-color: #fff8eb;
+    padding-bottom: 10px;
+}
+
+.centerAlign {
+    text-align: center; 
+}
+
+.inputsMargin {
+    margin-top: 20px;
+}
+
+
+.fullWidth {
+    width: 100%;
+}
+
+.resetContainerStyle {
+    margin-bottom: 20;
+    margin-top: 5;
+    padding-left: 15px;
+}
+
+.imageStyle {
+    width: 85%;
+}
